@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import 'admin-lte/dist/css/adminlte.min.css';
+import 'admin-lte/dist/js/adminlte.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
