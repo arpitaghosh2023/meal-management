@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Dashboard from './pages/Dashboard';
+import Registration from './pages/auth/Registration';
+import Login from './pages/auth/Login';
 import{BrowserRouter,Route,Router,Routes} from 'react-router-dom'
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
     <BrowserRouter>
     <Routes>
     <Route path='/' element={<Dashboard/>}></Route>
+    <Route path='/signin' element={<Registration/>}></Route>
+    <Route path='/login' element={<Login/>}></Route>
 
     </Routes>
     </BrowserRouter>
