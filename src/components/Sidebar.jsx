@@ -4,8 +4,7 @@ import { Link, NavLink, redirect, useLocation, useNavigate } from "react-router-
 
 const Sidebar = () => {
     return (
-        <aside className="main-sidebar sidebar-dark-primary elevation-4">
-            {/* Sidebar content goes here */}
+        
             <div class="sidebar">
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
@@ -50,7 +49,9 @@ const Sidebar = () => {
                     </ul>
                 </nav>
             </div>
-        </aside >
+        // </aside >
+        // <aside className="main-sidebar sidebar-dark-primary elevation-4">
+            
     );
 };
 

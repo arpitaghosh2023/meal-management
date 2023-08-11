@@ -3,24 +3,32 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Sidebar from '../components/Sidebar';
 
+
 const Dashboard = () => {
   return (
-    <div>
-      <Sidebar />
-      <div className="content-wrapper">
+    <div className="main-wrapper">
+      {/* Header */}
+      <header className="main-header">
+        {/* Header content */}
+        <Header />
+      </header>
 
-        <div className="content-header">
-          <Header />
-          <div className="container-fluid">
+      {/* Sidebar */}
+      <aside className="main-sidebar sidebar-dark-primary elevation-4">
+        {/* Sidebar content */}
+        <Sidebar />
+      </aside>
 
-            <h1>Dashboard</h1>
-          </div>
-        </div>
-        <section className="content">
-          {/* Your content goes here */}
-        </section>
+      {/* Main content */}
+      <main className="content">
+        {/* Main content goes here */}
+      </main>
+
+      {/* Footer */}
+      <footer className="main-footer">
+        {/* Footer content */}
         <Footer />
-      </div>
+      </footer>
     </div>
   );
 };
